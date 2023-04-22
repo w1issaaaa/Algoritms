@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    height: 100%;
+    background-image: url(../background.jpg);
+}
+
+.main_block {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.canvas_block {
+    width: 900px;
+    height: 80%;
+    border-radius: 20px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+button {
+    margin: 5px;
+    width: 160px;
+    height: 100px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 17px;
+    position: relative;
+    padding: 0;
+    background-color: rgb(243, 249, 204);
+  }
+
+.fieldSize {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: start !important;
+}
+
+

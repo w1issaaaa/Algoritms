@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+  background-image: url(../background.jpg);
+}
+
+.main_block {
+  width: 30%;
+}
+
+button {
+  margin: 5px;
+  width: 160px;
+  height: 100px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 17px;
+  position: relative;
+  padding: 0;
+  background-color: rgb(243, 249, 204);
+}
+/* расположение */
+#cellButtons{ 
+  margin-top: 20px;
+}
+
+#field {
+  width: 40%;
+  height: 100%;
+  padding: 20px;
+  margin-right: 40px;
+}
+
+table td[data-mode="unchecked"] {
+  background-color: white;
+}
+
+table td[data-mode="checked"] {
+  background-color: rgb(244, 244, 193);
+}
+
+table td[data-mode="path"] {
+  background-color: rgb(158, 231, 164);
+}
+
+table td[data-mode="border"] {
+  background-color: rgba(14, 14, 14, 0.419);
+}
+
+table td[data-mode="start"] {
+  background-color: rgb(226, 171, 244);
+}
+
+table td[data-mode="finish"] {
+  background-color: rgb(119, 125, 236);
+}
+

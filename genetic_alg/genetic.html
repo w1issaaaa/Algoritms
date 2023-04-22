@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="genetic.css">
+    <link rel="stylesheet" href="../index.css"> 
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a href="../index.html"> Home</a>
+            <a href="../pathFinder/pathFinder.html"> Поиск пути. A*</a>
+            <a href="../clustering/clustering.html">Кластеризация</a>
+            <a class="active" href="#">Генетический алгоритм</a>
+        </div>
+    </header>
+<div class="main">
+    <div class="canvas_block" id="canv">
+        <canvas id="canvas" width="932" height="810"></canvas>
+    </div>
+    <div class="main_block">
+        <div>
+            <button id="startButton">Старт</button>
+        </div>
+        <div id="fieldButtons">
+            <button id="addPointButton" data-mode="city">Точка</button>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+<script src="const.js"></script>
+<script src="handler.js"></script>
+<script src="genetic.js"></script>
+<script src="function.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>

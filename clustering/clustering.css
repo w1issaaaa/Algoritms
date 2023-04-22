@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    background-image: url(../background.jpg);
+}
+.description{
+    background: inherit;
+    background-image: inherit;
+}
+.main_block {
+    margin-top: 15px;
+    width: 20%;
+}
+canvas{
+    background-color: white;
+}
+.canvas_block{
+    margin: 20px;
+}
+button {
+    margin: 5px;
+    width: 160px;
+    height: 100px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 17px;
+    position: relative;
+    padding: 0;
+    background-color: rgb(243, 249, 204);
+  }
